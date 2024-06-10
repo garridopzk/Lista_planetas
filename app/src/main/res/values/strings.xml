@@ -2,14 +2,14 @@
     <string name="app_name">Lista_planetas</string>
 
     <string-array name="nombres">
-        <item>@drawable/mercurio</item>
-        <item>@drawable/venus</item>
-        <item>@drawable/tierra</item>
-        <item>@drawable/marte</item>
-        <item>@drawable/jupiter</item>
-        <item>@drawable/saturno</item>
-        <item>@drawable/urano</item>
-        <item>@drawable/neptuno</item>
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
     </string-array>
 
     <string-array name="descripcion">
@@ -23,7 +23,18 @@
         <item>Neptuno es el octavo planeta desde el Sol y es similar en composición a Urano, considerado un gigante de hielo.</item>
     </string-array>
 
-    <string-array name="planet_descriptions">
+    <string-array name="planetas_nombres">
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Júpiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+    </string-array>
+
+    <string-array name="planeta_descriptions">
         <item>Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. No tiene atmósfera significativa, lo que resulta en grandes fluctuaciones de temperatura entre el día y la noche. Su superficie está cubierta de cráteres y es similar en apariencia a la Luna.</item>
         <item>Venus es el segundo planeta desde el Sol y es similar en tamaño y estructura a la Tierra. Sin embargo, su atmósfera densa y compuesta principalmente de dióxido de carbono crea un efecto invernadero extremo, haciendo que su superficie sea la más caliente del sistema solar.</item>
         <item>La Tierra es el tercer planeta desde el Sol y el único conocido por albergar vida. Tiene una atmósfera rica en oxígeno, grandes cantidades de agua líquida y una biosfera diversa. La Tierra tiene un único satélite natural, la Luna.</item>

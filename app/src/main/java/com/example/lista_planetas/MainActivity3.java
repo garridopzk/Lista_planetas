@@ -1,5 +1,8 @@
 package com.example.lista_planetas;
 
+import static com.example.lista_planetas.R.id.listview;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity3 extends AppCompatActivity {
     private ImageView planetas;
     private TextView descripcion;
-    private ListView listView;  // Declarar ListView
+    private ListView listView;
     private int[] planetImages = {
             R.drawable.mercurio,
             R.drawable.venus,
@@ -25,7 +28,6 @@ public class MainActivity3 extends AppCompatActivity {
             R.drawable.neptuno
     };
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,11 +36,11 @@ public class MainActivity3 extends AppCompatActivity {
 
         planetas = findViewById(R.id.planetas);
         descripcion = findViewById(R.id.descripcion);
-        listView = findViewById(R.id.listview);
 
         // Obtener los nombres y descripciones de los planetas desde resources
-        String[] planetNames = getResources().getStringArray(R.array.nombres);
-        String[] planetDescriptions = getResources().getStringArray(R.array.planet_descriptions);
+        String[] planetNames = getResources().getStringArray(R.array.planetas_nombres);
+        String[] planetDescriptions = getResources().getStringArray(R.array.planeta_descriptions);
+
 
         // Crear un adaptador para el ListView
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
@@ -49,7 +51,7 @@ public class MainActivity3 extends AppCompatActivity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                planetas.setImageResource(planetas [position]);
+                planetas.setImageResource(planetImages [position]);
                 descripcion.setText(planetDescriptions[position]);
             }
         });

@@ -43,7 +43,16 @@ public class MainActivity2 extends AppCompatActivity {
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String planeta_nombres = nombres[position];
+                String planeta_Descriptions = descripcion[position];
+                int planetImage = planetasImagenes[position];
                 Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+
+                intent.putExtra("planeta_nombres", planeta_nombres);
+                intent.putExtra("planeta_descriptions", planeta_Descriptions);
+                intent.putExtra("planet_image", planetImage);
+
+                // Iniciar MainActivity3
                 startActivity(intent);
             }
         });

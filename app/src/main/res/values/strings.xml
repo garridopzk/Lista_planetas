@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Lista_planetas</string>
+
+    <string-array name="nombres">
+        <item>@drawable/mercurio</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/tierra</item>
+        <item>@drawable/marte</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/saturno</item>
+        <item>@drawable/urano</item>
+        <item>@drawable/neptuno</item>
+    </string-array>
+
+    <string-array name="descripcion">
+        <item>Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar.</item>
+        <item>Venus es el segundo planeta desde el Sol y es similar en tamaño y estructura a la Tierra</item>
+        <item>La Tierra es el tercer planeta desde el Sol y el único conocido por albergar vida</item>
+        <item>Marte es conocido como el planeta rojo debido a su color característico, es el cuarto planeta desde el Sol.</item>
+        <item>Júpiter es el quinto planeta desde el Sol y el más grande del sistema solar.</item>
+        <item>Saturno es el sexto planeta desde el Sol y es conocido por sus anillos prominentes.</item>
+        <item>Urano", "Urano es el séptimo planeta desde el Sol y es un gigante de hielo.</item>
+        <item>Neptuno es el octavo planeta desde el Sol y es similar en composición a Urano, considerado un gigante de hielo.</item>
+    </string-array>
+
+    <string-array name="planet_descriptions">
+        <item>Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. No tiene atmósfera significativa, lo que resulta en grandes fluctuaciones de temperatura entre el día y la noche. Su superficie está cubierta de cráteres y es similar en apariencia a la Luna.</item>
+        <item>Venus es el segundo planeta desde el Sol y es similar en tamaño y estructura a la Tierra. Sin embargo, su atmósfera densa y compuesta principalmente de dióxido de carbono crea un efecto invernadero extremo, haciendo que su superficie sea la más caliente del sistema solar.</item>
+        <item>La Tierra es el tercer planeta desde el Sol y el único conocido por albergar vida. Tiene una atmósfera rica en oxígeno, grandes cantidades de agua líquida y una biosfera diversa. La Tierra tiene un único satélite natural, la Luna.</item>
+        <item>Marte, conocido como el planeta rojo debido a su color característico, es el cuarto planeta desde el Sol. Tiene la montaña más alta y el cañón más grande del sistema solar. Hay evidencia de que Marte tuvo agua líquida en su superficie en el pasado.</item>
+        <item>Júpiter es el quinto planeta desde el Sol y el más grande del sistema solar. Es un gigante gaseoso compuesto principalmente de hidrógeno y helio. Su característica más distintiva es la Gran Mancha Roja, una tormenta gigante que ha existido durante siglos.</item>
+        <item>Saturno es el sexto planeta desde el Sol y es conocido por sus anillos prominentes. Estos anillos están compuestos de hielo y partículas de roca. Saturno es un gigante gaseoso similar a Júpiter y tiene numerosas lunas, incluyendo Titán, la segunda luna más grande del sistema solar.</item>
+        <item>Urano es el séptimo planeta desde el Sol y es un gigante de hielo. Tiene una atmósfera compuesta principalmente de hidrógeno y helio, con un alto porcentaje de agua, amoníaco y metano. Urano rota de manera única, casi de lado, lo que provoca estaciones extremas.</item>
+        <item>Neptuno es el octavo planeta desde el Sol y es similar en composición a Urano, considerado un gigante de hielo. Es conocido por sus fuertes vientos y tormentas, siendo la más famosa la Gran Mancha Oscura. Neptuno tiene un sistema de anillos y múltiples lunas.</item>
+    </string-array>
+
+</resources>
